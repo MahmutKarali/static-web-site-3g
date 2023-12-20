@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ÜÇGE MÜHENDİSLİK</title>
+    <meta name="keywords" content="HTML5 Template">
+    <meta name="description" content="Molla - Bootstrap eCommerce Template">
+    <meta name="author" content="p-themes">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/icons/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/icons/safari-pinned-tab.svg" color="#666666">
+    <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Molla">
+    <meta name="application-name" content="Molla">
+    <meta name="msapplication-TileColor" content="#cc9966">
+    <meta name="msapplication-config" content="assets/images/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Plugins CSS File -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup/magnific-popup.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .card {
+            --font-color: #323232;
+            --bg-color: #ffffff;
+            height: 350px;
+            border-radius: 20px;
+            background: var(--bg-color);
+            box-shadow: -9px 9px 18px #cfcece,
+                9px -9px 18px #ffffff;
+            display: flex;
+            flex-direction: column;
+            transition: .4s;
+            position: relative;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+            box-shadow: 0px 0px 10px 2px #5a5a5a;
+        }
+
+        .card__img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px 20px 0 0;
+            background-color: blueviolet;
+        }
+
+        .card__descr-wrapper {
+            padding: 15px;
+            display: grid;
+        }
+
+        .card__title {
+            color: var(--font-color);
+            text-align: center;
+            margin-bottom: 15px;
+            font-weight: 900;
+            font-size: 16px;
+        }
+
+        .card__descr {
+            color: var(--font-color);
+        }
+
+        .svg {
+            width: 25px;
+            height: 25px;
+            transform: translateY(25%);
+            fill: var(--font-color);
+        }
+
+        .card__links {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-self: flex-end;
+        }
+
+        .card__links .link {
+            color: var(--font-color);
+            font-weight: 600;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        .card__links .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="header-middle sticky-header">
+                <div class="container">
+                    <div class="header-left">
+                        <button class="mobile-menu-toggler">
+                            <span class="sr-only">Toggle mobile menu</span>
+                            <i class="icon-bars"></i>
+                        </button>
+
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/3g_icon.png" alt="Molla Logo" width="105" height="25">
+                        </a>
+
+                        <nav class="main-nav">
+                            <ul class="menu sf-arrows">
+                                <li>
+                                    <a id="header_homepage" href="index.html">Ana Sayfa</a>
+                                </li>
+                                <li>
+                                    <a id="header_about" href="about.html">Hakkında</a>
+                                </li>
+                                <li>
+                                    <a id="header_about" href="policy.html">Kalite Politikamız</a>
+                                </li>
+                                <li>
+                                    <a id="header_about" href="jobsecurity.html">İş Güvenliği</a>
+                                </li>
+                                <li>
+                                    <a id="header_services" href="services.html">Hizmetlerimiz</a>
+                                </li>
+                                <li>
+                                    <a id="header_services" href="principle.html">İlkelerimiz</a>
+                                </li>
+                                <li>
+                                    <a id="header_portfolio" href="product.html">Projelerimiz</a>
+                                </li>
+                                <li>
+                                    <a id="header_contact" href="contact.html">İletişim</a>
+                                </li>
+                            </ul><!-- End .menu -->
+                        </nav><!-- End .main-nav -->
+                    </div><!-- End .header-left -->
+                </div><!-- End .container -->
+            </div><!-- End .header-middle -->
+        </header><!-- End .header -->
+        <main class="main">
+            <div class="container">
+                <div class="page-header page-header-big text-center"
+                    style="background-image: url('assets/images/project3.jpg')">
+                    <h1 id="top_header_about" class="page-title text-white" style="text-shadow: 3px 3px 3px black;">
+                        PROJELERİMİZ
+                    </h1>
+                </div><!-- End .page-header -->
+            </div><!-- End .container -->
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <article class="entry entry-list">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <figure class="entry-media">
+                                        <div class="owl-carousel owl-simple owl-light owl-nav-inside" data-toggle="owl">
+                                            <img src="assets/images/kentplus.jpg" alt="image desc">
+                                            <img src="assets/images/kentplus2.jpg" alt="image desc">
+                                        </div><!-- End .owl-carousel -->
+                                    </figure><!-- End .entry-media -->
+                                </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                    <div class="entry-body">
+                                        <h2 class="entry-title">
+                                            <a>İSTANBUL KADIKÖY KENT PLUS KONUT PROJESİ</a>
+                                        </h2><!-- End .entry-title -->
+
+                                        <div class="entry-content">
+                                            <p><b>Yıl:</b> 2016</p>
+                                            <p><b>Alan:</b> 20.000 M²</p>
+                                            <p><b>Yatırımcı:</b> Emay İnşaat Taah. San ve Tic. A.Ş.</p>
+                                            <p><b>Ana Yükleyici:</b> Emay İnşaat Taah. San ve Tic. A.Ş</p>
+                                            <p><b>İş Tanımı:</b> Mekanik sistemleri montaj ve işletmeye alma işlerinin
+                                                yapılması.</p>
+
+                                        </div><!-- End .entry-content -->
+                                    </div><!-- End .entry-body -->
+                                </div><!-- End .col-md-7 -->
+                            </div><!-- End .row -->
+                        </article><!-- End .entry -->
+
+                        <article class="entry entry-list">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <figure class="entry-media">
+                                        <img src="assets/images/umitkoy.jpg" alt="image desc">
+                                    </figure><!-- End .entry-media -->
+                                </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                    <div class="entry-body">
+                                        <h2 class="entry-title">
+                                            <a>ANKARA ÜMİTKÖY SPOR KOMPEKSİ</a>
+                                        </h2><!-- End .entry-title -->
+
+                                        <div class="entry-content">
+                                            <p><b>Yıl:</b> 2016</p>
+                                            <p><b>Alan:</b> 8.500 M²</p>
+                                            <p><b>Yatırımcı:</b> Gençlik ve Spor Bakanlığı</p>
+                                            <p><b>Ana Yükleyici:</b> Haloğlu İnşaat</p>
+                                            <p><b>İş Tanımı:</b> Mekanik sistemleri montaj ve işletmeye alma işlerinin
+                                                yapılması.</p>
+
+                                        </div><!-- End .entry-content -->
+                                    </div><!-- End .entry-body -->
+                                </div><!-- End .col-md-7 -->
+                            </div><!-- End .row -->
+                        </article><!-- End .entry -->
+
+                        <article class="entry entry-list">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <figure class="entry-media">
+                                        <img src="assets/images/pırlanta.png" alt="image desc">
+                                    </figure><!-- End .entry-media -->
+                                </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                    <div class="entry-body">
+                                        <h2 class="entry-title">
+                                            <a>İSTANBUL KADIKÖY PIRLANTA KONUT PROJESİ </a>
+                                        </h2><!-- End .entry-title -->
+
+                                        <div class="entry-content">
+                                            <p><b>Yıl:</b> 2017</p>
+                                            <p><b>Alan:</b> 22.000 M²</p>
+                                            <p><b>Yatırımcı:</b> Erkan İnşaat</p>
+                                            <p><b>Ana Yükleyici:</b> Erkan İnşaat</p>
+                                            <p><b>İş Tanımı:</b> Mekanik sistemleri montaj ve işletmeye alma işlerinin
+                                                yapılması.</p>
+
+                                        </div><!-- End .entry-content -->
+                                    </div><!-- End .entry-body -->
+                                </div><!-- End .col-md-7 -->
+                            </div><!-- End .row -->
+                        </article><!-- End .entry -->
+
+                        <article class="entry entry-list">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <figure class="entry-media">
+                                        <img src="assets/images/goztepesehir.jpg" alt="image desc">
+                                    </figure><!-- End .entry-media -->
+                                </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                    <div class="entry-body">
+                                        <h2 class="entry-title">
+                                            <a>GÖZTEPE SÜLEYMAN YALÇIN ŞEHİR HASTANESİ </a>
+                                        </h2><!-- End .entry-title -->
+
+                                        <div class="entry-content">
+                                            <p><b>Yıl:</b> 2018</p>
+                                            <p><b>Alan:</b> 180.000 M²</p>
+                                            <p><b>Yatırımcı:</b> Sağlık Bakanlığı</p>
+                                            <p><b>Ana Yükleyici:</b> Taşyapı İnşaat</p>
+                                            <p><b>İş Tanımı:</b> Mekanik sistemleri montaj ve işletmeye alma işlerinin
+                                                yapılması.</p>
+
+                                        </div><!-- End .entry-content -->
+                                    </div><!-- End .entry-body -->
+                                </div><!-- End .col-md-7 -->
+                            </div><!-- End .row -->
+                        </article><!-- End .entry -->
+
+                        <article class="entry entry-list">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <figure class="entry-media">
+                                        <div class="owl-carousel owl-simple owl-light owl-nav-inside" data-toggle="owl">
+                                            <img src="assets/images/usak2.png" alt="image desc">
+                                            <img src="assets/images/usak1.png" alt="image desc">
+                                        </div><!-- End .owl-carousel -->
+                                    </figure><!-- End .entry-media -->
+                                </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                    <div class="entry-body">
+                                        <h2 class="entry-title">
+                                            <a>UŞAK EMNİYET BİNASI </a>
+                                        </h2><!-- End .entry-title -->
+
+                                        <div class="entry-content">
+                                            <p><b>Yıl:</b> 2018</p>
+                                            <p><b>Alan:</b> 11.000 M²</p>
+                                            <p><b>Yatırımcı:</b> İçişleri Bakanlığı</p>
+                                            <p><b>Ana Yükleyici:</b> Haloğlu İnşaat</p>
+                                            <p><b>İş Tanımı:</b> Mekanik sistemleri montaj ve işletmeye alma işlerinin
+                                                yapılması.</p>
+
+                                        </div><!-- End .entry-content -->
+                                    </div><!-- End .entry-body -->
+                                </div><!-- End .col-md-7 -->
+                            </div><!-- End .row -->
+                        </article><!-- End .entry -->
+
+                        <article class="entry entry-list">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <figure class="entry-media">
+                                        <img src="assets/images/maltepe.jpg" alt="image desc">
+                                    </figure><!-- End .entry-media -->
+                                    </figure><!-- End .entry-media -->
+                                </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                    <div class="entry-body">
+                                        <h2 class="entry-title">
+                                            <a>İSTANBUL MALTEPE YERALTI METRO BAKIM İSTASYONU </a>
+                                        </h2><!-- End .entry-title -->
+
+                                        <div class="entry-content">
+                                            <p><b>Yıl:</b> 2018</p>
+                                            <p><b>Alan:</b> 2.500 M²</p>
+                                            <p><b>Yatırımcı:</b> Ulaştırma Bakanlığı</p>
+                                            <p><b>Ana Yükleyici:</b> Ulaşım A.Ş.</p>
+                                            <p><b>İş Tanımı:</b> Mekanik sistemleri montaj ve işletmeye alma işlerinin
+                                                yapılması.</p>
+
+                                        </div><!-- End .entry-content -->
+                                    </div><!-- End .entry-body -->
+                                </div><!-- End .col-md-7 -->
+                            </div><!-- End .row -->
+                        </article><!-- End .entry -->
+
+                        <article class="entry entry-list">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <figure class="entry-media">
+                                        <img src="assets/images/etlik.jpg" alt="image desc">
+                                    </figure><!-- End .entry-media -->
+                                    </figure><!-- End .entry-media -->
+                                </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                    <div class="entry-body">
+                                        <h2 class="entry-title">
+                                            <a>ANKARA ETLİK ENTEGRE SAĞLIK KAMPÜSÜ </a>
+                                        </h2><!-- End .entry-title -->
+
+                                        <div class="entry-content">
+                                            <p><b>Yıl:</b> 2019</p>
+                                            <p><b>Alan:</b> 25.000 M²</p>
+                                            <p><b>Yatırımcı:</b> Sağlık Bakanlığı</p>
+                                            <p><b>Ana Yükleyici:</b> Astald & Türkerler İnşaat</p>
+                                            <p><b>İş Tanımı:</b> Mekanik sistemleri montaj ve işletmeye alma işlerinin
+                                                yapılması.</p>
+
+                                        </div><!-- End .entry-content -->
+                                    </div><!-- End .entry-body -->
+                                </div><!-- End .col-md-7 -->
+                            </div><!-- End .row -->
+                        </article><!-- End .entry -->
+
+                        <article class="entry entry-list">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <figure class="entry-media">
+                                        <img src="assets/images/basak.png" alt="image desc">
+                                    </figure><!-- End .entry-media -->
+                                    </figure><!-- End .entry-media -->
+                                </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                    <div class="entry-body">
+                                        <h2 class="entry-title">
+                                            <a>İSTANBUL BAŞAKŞEHİR ŞEHİR HASTANESİ </a>
+                                        </h2><!-- End .entry-title -->
+
+                                        <div class="entry-content">
+                                            <p><b>Yıl:</b> 2020</p>
+                                            <p><b>Alan:</b> 125.000 M²</p>
+                                            <p><b>Yatırımcı:</b> Sağlık Bakanlığı</p>
+                                            <p><b>Ana Yükleyici:</b> Rönesans İnşaat</p>
+                                            <p><b>İş Tanımı:</b> Mekanik sistemleri montaj ve işletmeye alma işlerinin
+                                                yapılması.</p>
+
+                                        </div><!-- End .entry-content -->
+                                    </div><!-- End .entry-body -->
+                                </div><!-- End .col-md-7 -->
+                            </div><!-- End .row -->
+                        </article><!-- End .entry -->
+
+                        <article class="entry entry-list">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <figure class="entry-media">
+                                        <img src="assets/images/samsun.jpg" alt="image desc">
+                                    </figure><!-- End .entry-media -->
+                                    </figure><!-- End .entry-media -->
+                                </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                    <div class="entry-body">
+                                        <h2 class="entry-title">
+                                            <a>SAMSUN EĞİTİM ARAŞTIRMA HASTANESİ POLİKLİNİK BİNASI
+                                            </a>
+                                        </h2><!-- End .entry-title -->
+
+                                        <div class="entry-content">
+                                            <p><b>Yıl:</b> 2018</p>
+                                            <p><b>Alan:</b> 19.000 M²</p>
+                                            <p><b>Yatırımcı:</b> Sağlık Bakanlığı</p>
+                                            <p><b>Ana Yükleyici:</b> Haloğlu İnşaat</p>
+                                            <p><b>İş Tanımı:</b> Mekanik sistemleri montaj ve işletmeye alma işlerinin
+                                                yapılması.</p>
+
+                                        </div><!-- End .entry-content -->
+                                    </div><!-- End .entry-body -->
+                                </div><!-- End .col-md-7 -->
+                            </div><!-- End .row -->
+                        </article><!-- End .entry -->
+
+                        <article class="entry entry-list">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <figure class="entry-media">
+                                        <img src="assets/images/ifm.png" alt="image desc">
+                                    </figure><!-- End .entry-media -->
+                                    </figure><!-- End .entry-media -->
+                                </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                    <div class="entry-body">
+                                        <h2 class="entry-title">
+                                            <a>İSTANBUL ATAŞEHİR FİNANS MERKEZİ </a>
+                                        </h2><!-- End .entry-title -->
+
+                                        <div class="entry-content">
+                                            <p><b>Yıl:</b> 2021</p>
+                                            <p><b>Alan:</b> 2.500.000 M²</p>
+                                            <p><b>Yatırımcı:</b> İFM</p>
+                                            <p><b>Ana Yükleyici:</b> Siyah Kalem İnşaat</p>
+                                            <p><b>İş Tanımı:</b> İstabul Finans Merkezine ait 450.000 m2
+                                                rekreasyon alanlarının tüm, Mekanik işleri ve saha
+                                                uygulamalarının yapılması.</p>
+
+                                        </div><!-- End .entry-content -->
+                                    </div><!-- End .entry-body -->
+                                </div><!-- End .col-md-7 -->
+                            </div><!-- End .row -->
+                        </article><!-- End .entry -->
+
+                        <article class="entry entry-list">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <figure class="entry-media">
+                                        <img src="assets/images/telasis.jpg" alt="image desc">
+                                    </figure><!-- End .entry-media -->
+                                    </figure><!-- End .entry-media -->
+                                </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                    <div class="entry-body">
+                                        <h2 class="entry-title">
+                                            <a>ÇERKEZKÖY TELASİS TEKSTİL ENTÜSTİREYEL TESİS </a>
+                                        </h2><!-- End .entry-title -->
+
+                                        <div class="entry-content">
+                                            <p><b>Yıl:</b> 2021</p>
+                                            <p><b>Alan:</b> 35.000 M²</p>
+                                            <p><b>Yatırımcı:</b> Telasis</p>
+                                            <p><b>Ana Yükleyici:</b> Sönmez Global</p>
+                                            <p><b>İş Tanımı:</b> Faz1 ve faz-2 kısmi alanlarının tüm,
+                                                Mekanik işleri ve saha uygulamalarının yapılması</p>
+                                        </div><!-- End .entry-content -->
+                                    </div><!-- End .entry-body -->
+                                </div><!-- End .col-md-7 -->
+                            </div><!-- End .row -->
+                        </article><!-- End .entry -->
+
+                        <article class="entry entry-list">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <figure class="entry-media">
+                                        <img src="assets/images/haznedar.jpg" alt="image desc">
+                                    </figure><!-- End .entry-media -->
+                                    </figure><!-- End .entry-media -->
+                                </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                    <div class="entry-body">
+                                        <h2 class="entry-title">
+                                            <a>HAZNEDAR-İLKYUVA ÖZGÜRLÜK METRO İSTASYONLARI </a>
+                                        </h2><!-- End .entry-title -->
+
+                                        <div class="entry-content">
+                                            <p><b>Yıl:</b> 2022</p>
+                                            <p><b>Alan:</b> 15.000 M²</p>
+                                            <p><b>Yatırımcı:</b> Ulaştırma Bakanlığı</p>
+                                            <p><b>Ana Yükleyici:</b> Ağa Enerji</p>
+                                            <p><b>İş Tanımı:</b> Mekanik sistemleri montaj ve işletmeye
+                                                alma işlerinin yapılması.</p>
+                                        </div><!-- End .entry-content -->
+                                    </div><!-- End .entry-body -->
+                                </div><!-- End .col-md-7 -->
+                            </div><!-- End .row -->
+                        </article><!-- End .entry -->
+
+                        <article class="entry entry-list">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <figure class="entry-media">
+                                        <img src="assets/images/donfoss.png" alt="image desc">
+                                    </figure><!-- End .entry-media -->
+                                    </figure><!-- End .entry-media -->
+                                </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                    <div class="entry-body">
+                                        <h2 class="entry-title">
+                                            <a>ÇERKEZKÖY DANFOSS ENDÜSTRİYEL TESİSİ </a>
+                                        </h2><!-- End .entry-title -->
+
+                                        <div class="entry-content">
+                                            <p><b>Yıl:</b> 2023</p>
+                                            <p><b>Alan:</b> 20.000 M²</p>
+                                            <p><b>Yatırımcı:</b> Danfoss</p>
+                                            <p><b>Ana Yükleyici:</b> Aris İnşaat</p>
+                                            <p><b>İş Tanımı:</b> Mekanik sistemleri montaj ve işletmeye
+                                                alma işlerinin yapılması.</p>
+                                        </div><!-- End .entry-content -->
+                                    </div><!-- End .entry-body -->
+                                </div><!-- End .col-md-7 -->
+                            </div><!-- End .row -->
+                        </article><!-- End .entry -->
+
+                        <article class="entry entry-list">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <figure class="entry-media">
+                                        <img src="assets/images/hirvat.jpg" alt="image desc">
+                                    </figure><!-- End .entry-media -->
+                                    </figure><!-- End .entry-media -->
+                                </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                    <div class="entry-body">
+                                        <h2 class="entry-title">
+                                            <a>ZAGREB SİSTERS OF MERCY HOSPİTAL </a>
+                                        </h2><!-- End .entry-title -->
+
+                                        <div class="entry-content">
+                                            <p><b>Yıl:</b> 2022</p>
+                                            <p><b>Alan:</b> 28.700 M²</p>
+                                            <p><b>Yatırımcı:</b> Hırvatistan Sağlık Bakanlığı</p>
+                                            <p><b>Ana Yükleyici:</b> Akfen & Dost İnşaat Ortaklığı</p>
+                                            <p><b>İş Tanımı:</b> Mekanik sistemleri montaj ve işletmeye
+                                                alma işlerinin yapılması.</p>
+                                        </div><!-- End .entry-content -->
+                                    </div><!-- End .entry-body -->
+                                </div><!-- End .col-md-7 -->
+                            </div><!-- End .row -->
+                        </article><!-- End .entry -->
+
+                        <article class="entry entry-list">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <figure class="entry-media">
+                                        <img src="assets/images/esenyurt.jpg" alt="image desc">
+                                    </figure><!-- End .entry-media -->
+                                    </figure><!-- End .entry-media -->
+                                </div><!-- End .col-md-5 -->
+
+                                <div class="col-md-7">
+                                    <div class="entry-body">
+                                        <h2 class="entry-title">
+                                            <a>İSTANBUL ESENYURT OKUL KAMPÜSÜ </a>
+                                        </h2><!-- End .entry-title -->
+
+                                        <div class="entry-content">
+                                            <p><b>Yıl:</b> 2023</p>
+                                            <p><b>Alan:</b> 150.000 M²</p>
+                                            <p><b>Yatırımcı:</b> Esenyurt Kampüsü</p>
+                                            <p><b>Ana Yükleyici:</b> Yapı-Yapı İnşaat</p>
+                                            <p><b>İş Tanımı:</b> Mekanik sistemleri montaj ve işletmeye
+                                                alma işlerinin yapılması.</p>
+                                        </div><!-- End .entry-content -->
+                                    </div><!-- End .entry-body -->
+                                </div><!-- End .col-md-7 -->
+                            </div><!-- End .row -->
+                        </article><!-- End .entry -->
+
+                    </div><!-- End .col-lg-9 -->
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+
+
+            <div class="mb-5"></div><!-- End .mb-4 -->
+    </div><!-- End .container -->
+    </div><!-- End .page-content -->
+
+    </main><!-- End .main -->
+
+    <footer class="footer footer-2">
+        <div class="footer-middle border-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="widget widget-about">
+                            <img src="assets/images/3g_icon.png" class="footer-logo" alt="Footer Logo" width="175"
+                                height="25">
+                            <p>Mevlana Mahallesi Yonca Sok. No:2/4 Ataşehir İstanbul</p>
+
+                            <div class="widget-about-info">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-4">
+                                        <span class="widget-about-title"></span>
+                                        <a style="color:#cc9966" href="tel:905416915151">+90 (541) 691 51 51</a>
+                                    </div><!-- End .col-sm-6 -->
+                                </div><!-- End .row -->
+                            </div><!-- End .widget-about-info -->
+                        </div><!-- End .widget about-widget -->
+                    </div><!-- End .col-sm-12 col-lg-3 -->
+
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+        </div><!-- End .footer-middle -->
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="footer-copyright">Copyright © Karali Software. All Rights Reserved.</p>
+                <!-- End .footer-copyright -->
+                <!-- <ul class="footer-menu">
+                        <li><a href="#">Terms Of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul> -->
+            </div><!-- End .container -->
+        </div><!-- End .footer-bottom -->
+    </footer><!-- End .footer -->
+    </div><!-- End .page-wrapper -->
+    <button id="scroll-top" title="Back to Top"><i class="icon-arrow-up"></i></button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+
+    <div class="mobile-menu-container mobile-menu-light">
+        <div class="mobile-menu-wrapper">
+            <span class="mobile-menu-close"><i class="icon-close"></i></span>
+            <nav class="mobile-nav">
+                <ul class="mobile-menu">
+                    <li>
+                        <a href="index.html">Ana Sayfa</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Hakkımızda</a>
+                    </li>
+                    <li class="active">
+                        <a href="policy.html">KALİTE POLİTİKAMIZ</a>
+                    </li>
+                    <li>
+                        <a href="jobsecurity.html">İŞ SAĞLIĞI</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Hizmetlerimiz</a>
+                    </li>
+                    <li>
+                        <a href="principle.html"> İLKELERİMİZ </a>
+                    </li>
+                    <li>
+                        <a href="product.html">PROJELERİMİZ</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">İletişim</a>
+                    </li>
+                </ul>
+            </nav><!-- End .mobile-nav -->
+
+            <div class="social-icons" style="visibility: hidden;">
+                <a href="#" class="social-icon" target="_blank" title="Facebook"><i class="icon-facebook-f"></i></a>
+                <a href="#" class="social-icon" target="_blank" title="Twitter"><i class="icon-twitter"></i></a>
+                <a href="#" class="social-icon" target="_blank" title="Instagram"><i class="icon-instagram"></i></a>
+                <a href="#" class="social-icon" target="_blank" title="Youtube"><i class="icon-youtube"></i></a>
+            </div><!-- End .social-icons -->
+        </div><!-- End .mobile-menu-wrapper -->
+    </div><!-- End .mobile-menu-container -->
+
+    <!-- Sign in / Register Modal -->
+    <div class="modal fade" id="signin-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="icon-close"></i></span>
+                    </button>
+
+                    <div class="form-box">
+                        <div class="form-tab">
+                            <ul class="nav nav-pills nav-fill" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="signin-tab" data-toggle="tab" href="#signin"
+                                        role="tab" aria-controls="signin" aria-selected="true">Sign In</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab"
+                                        aria-controls="register" aria-selected="false">Register</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="tab-content-5">
+                                <div class="tab-pane fade show active" id="signin" role="tabpanel"
+                                    aria-labelledby="signin-tab">
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <label for="singin-email">Username or email address *</label>
+                                            <input type="text" class="form-control" id="singin-email"
+                                                name="singin-email" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-group">
+                                            <label for="singin-password">Password *</label>
+                                            <input type="password" class="form-control" id="singin-password"
+                                                name="singin-password" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-footer">
+                                            <button type="submit" class="btn btn-outline-primary-2">
+                                                <span>LOG IN</span>
+                                                <i class="icon-long-arrow-right"></i>
+                                            </button>
+
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input"
+                                                    id="signin-remember">
+                                                <label class="custom-control-label" for="signin-remember">Remember
+                                                    Me</label>
+                                            </div><!-- End .custom-checkbox -->
+
+                                            <a href="#" class="forgot-link">Forgot Your Password?</a>
+                                        </div><!-- End .form-footer -->
+                                    </form>
+                                    <div class="form-choice">
+                                        <p class="text-center">or sign in with</p>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login btn-g">
+                                                    <i class="icon-google"></i>
+                                                    Login With Google
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login btn-f">
+                                                    <i class="icon-facebook-f"></i>
+                                                    Login With Facebook
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                        </div><!-- End .row -->
+                                    </div><!-- End .form-choice -->
+                                </div><!-- .End .tab-pane -->
+                                <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <label for="register-email">Your email address *</label>
+                                            <input type="email" class="form-control" id="register-email"
+                                                name="register-email" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-group">
+                                            <label for="register-password">Password *</label>
+                                            <input type="password" class="form-control" id="register-password"
+                                                name="register-password" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-footer">
+                                            <button type="submit" class="btn btn-outline-primary-2">
+                                                <span>SIGN UP</span>
+                                                <i class="icon-long-arrow-right"></i>
+                                            </button>
+
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="register-policy"
+                                                    required>
+                                                <label class="custom-control-label" for="register-policy">I agree to the
+                                                    <a href="#">privacy policy</a> *</label>
+                                            </div><!-- End .custom-checkbox -->
+                                        </div><!-- End .form-footer -->
+                                    </form>
+                                    <div class="form-choice">
+                                        <p class="text-center">or sign in with</p>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login btn-g">
+                                                    <i class="icon-google"></i>
+                                                    Login With Google
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login  btn-f">
+                                                    <i class="icon-facebook-f"></i>
+                                                    Login With Facebook
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                        </div><!-- End .row -->
+                                    </div><!-- End .form-choice -->
+                                </div><!-- .End .tab-pane -->
+                            </div><!-- End .tab-content -->
+                        </div><!-- End .form-tab -->
+                    </div><!-- End .form-box -->
+                </div><!-- End .modal-body -->
+            </div><!-- End .modal-content -->
+        </div><!-- End .modal-dialog -->
+    </div><!-- End .modal -->
+
+    <!-- Plugins JS File -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.hoverIntent.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/superfish.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/bootstrap-input-spinner.js"></script>
+    <script src="assets/js/jquery.elevateZoom.min.js"></script>
+    <script src="assets/js/bootstrap-input-spinner.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/constant.js"></script>
+    <script>
+
+        // $(document).ready(function () {
+        //     if (localStorage.selectedLanguage) {
+        //         changeLanguage(localStorage.selectedLanguage);
+        //     }
+        // });
+
+        // var changeLanguage = function (lang) {
+        //     console.log(lang);
+        //     localStorage.selectedLanguage = lang;
+        //     console.log(language[lang]);
+        //     document.getElementById("short_language").innerHTML = language[lang].short_language;
+        //     document.getElementById("header_homepage").innerHTML = language[lang].header_homepage;
+        //     document.getElementById("header_about").innerHTML = language[lang].header_about;
+        //     document.getElementById("header_services").innerHTML = language[lang].header_services;
+        //     document.getElementById("header_portfolio").innerHTML = language[lang].header_portfolio;
+        //     document.getElementById("header_contact").innerHTML = language[lang].header_contact;
+
+        //     console.log(language[lang].about_our_vision);
+        //     document.getElementById("about_our_vision").innerHTML = language[lang].about_our_vision;
+        //     document.getElementById("about_our_mission").innerHTML = language[lang].about_our_mission;
+        // };
+    </script>
+</body>
+
+</html>
